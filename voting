@@ -1,0 +1,26 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+     { cout<<"WELCOME to VOTING CENTER"<<endl;
+     char name;
+     cout<<"Enter the first letter of your name:";
+         cin>>name;
+         int id;
+         cout<<"Enter your ID: ";
+         cin>>id;
+       int age;
+       cout<<"Enter your age:";
+       cin>>age;
+       if(age>=18)
+       {
+       cout<<"You are eligible for voting: Vote for the best"<<endl;
+       }
+       else
+       {
+       cout<<"You are non eligible for voting:"<<endl;
+       cout<<"Wait for"<< 18-age <<"year(s) to vote:"<<endl;
+       cout<<"Next elections in 5 years";
+       }
+       return 0;
+       }
