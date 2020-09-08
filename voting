@@ -3,18 +3,26 @@
 using namespace std;
 int main()
      { cout<<"WELCOME to VOTING CENTER"<<endl;
-     char name;
+
+     cout<<"Some rules"<<endl;
+
+     cout<<"Your name must be registered in the constituency"<<endl;
+     cout<<"Ask the officials for help in voting"<<endl;
+     cout<<"in case you are voting for the first time"<<endl;
+     cout<<"Make sure you have your voters ID"<<endl;
+     char  name;
      cout<<"Enter the first letter of your name:";
          cin>>name;
          int id;
          cout<<"Enter your ID: ";
          cin>>id;
-       int age;
+         int age;
        cout<<"Enter your age:";
        cin>>age;
        if(age>=18)
        {
        cout<<"You are eligible for voting: Vote for the best"<<endl;
+       cout<<"Please press the button until a beep is heard";
        }
        else
        {
